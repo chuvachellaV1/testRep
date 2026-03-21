@@ -8,6 +8,6 @@ else
 fi
 sudo pacman -Syu
 mkdir -p /home/$USER/customisation
-INSTALLATION_PATH="/home/$USER/customisation"
-sudo pacman -S --needed networkmanager nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings pipewire pipewire-pulse pipewire-alsa pipewire-jack wireplumber ttf-liberation ttf-jetbrains-mono-nerd
-sudo pacman -S --needed kitty alacritty zsh  
+yay -S nvidia-open nvidia-utils lib32-nvidia-utils nvidia-settings
+#sudo pacman -S --needed networkmanager nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings pipewire pipewire-pulse pipewire-alsa pipewire-jack wireplumber ttf-liberation ttf-jetbrains-mono-nerd
+#sudo pacman -S --needed kitty alacritty zsh  
